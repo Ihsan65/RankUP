@@ -1,8 +1,8 @@
 <?php
 
-namespace rankup\economy;
+namespace HenryDM\RankUP\economy;
 
-use rankup\RankUp;
+use HenryDM\RankUP\Main;
 
 class EconomyLoader
 {
