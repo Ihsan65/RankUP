@@ -1,12 +1,12 @@
 <?php
 
-namespace rankup\economy;
+namespace HenryDM\RankUP\economy;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 use rankup\RankUp;
 
-abstract class BaseEconomy
-{
+abstract class BaseEconomy {
+ 
     private $plugin;
 
     /**
