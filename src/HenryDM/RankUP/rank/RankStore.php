@@ -1,12 +1,12 @@
 <?php
 
-namespace rankup\rank;
+namespace HenryDM\RankUP\rank;
 
-use pocketmine\Player;
-use rankup\RankUp;
+use pocketmine\player\Player;
+use HenryDM\RankUP\Main;
 
-class RankStore
-{
+class RankStore { 
+
     /** @var  Rank[] */
     private $ranks;
     /** @var  RankUp */
