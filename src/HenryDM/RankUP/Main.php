@@ -1,6 +1,6 @@
 <?php
 
-namespace HenryDM/RankUP;
+namespace HenryDM\RankUP;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
