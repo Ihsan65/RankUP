@@ -1,0 +1,19 @@
+name: RankUp
+main: HenryDM\RankUP\Main
+version: 4.0.0
+author: [Falkirks, HenryDM]
+api: [4.0.0]
+load: POSTWORLD
+softdepend: [BedrockEconomy, EconomyAPI]
+permissions:
+ rankup:
+  default: true
+ rankup.rankup:
+  default: true
+  description: Allow ranking up
+ rankup.admin:
+  default: op
+  description: Manage RankUp and view statistics
+ rankup.groups:
+  default: false
+  description: Do NOT set this. It is used for group managment.
