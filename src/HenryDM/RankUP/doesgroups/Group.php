@@ -1,13 +1,13 @@
 <?php
 
-namespace rankup\doesgroups;
+namespace HenryDM\RankUP\doesgroups;
 
 use pocketmine\command\ConsoleCommandSender;
 use pocketmine\permission\Permission;
-use pocketmine\Player;
+use pocketmine\player\Player;
 
-class Group
-{
+class Group {
+
     /** @var \rankup\doesgroups\RankUpDoesGroups */
     private $main;
     /** @var \pocketmine\permission\Permission */
