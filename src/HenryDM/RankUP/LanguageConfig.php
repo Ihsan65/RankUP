@@ -1,11 +1,11 @@
 <?php
 
-namespace rankup;
+namespace HenryDM\RankUP;
 
 use pocketmine\utils\Config;
 
-class LanguageConfig
-{
+class LanguageConfig {
+
     private $lang;
 
     /**
