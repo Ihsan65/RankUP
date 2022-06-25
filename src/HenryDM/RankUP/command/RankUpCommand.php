@@ -1,16 +1,15 @@
 <?php
 
-namespace rankup\command;
+namespace HenryDM\RankUP\command;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\command\PluginIdentifiableCommand;
-use pocketmine\Player;
+use pocketmine\plugin\PluginOwned;
+use pocketmine\player\Player;
 use pocketmine\plugin\Plugin;
-use rankup\RankUp;
+use HenryDM\RankUP\Main;
 
-class RankUpCommand extends Command implements PluginIdentifiableCommand
-{
+class RankUpCommand extends Command implements PluginOwned {
     private $main;
 
     /**
