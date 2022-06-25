@@ -2,11 +2,11 @@
 
 namespace rankup\doesgroups;
 
+use pocketmine\Server;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\permission\Permission;
-use pocketmine\Player;
-use pocketmine\Server;
+use pocketmine\player\Player;
 use pocketmine\utils\Config;
 
 class RankUpDoesGroups implements Listener {
@@ -54,7 +54,7 @@ class RankUpDoesGroups implements Listener {
     /**
      * @param PlayerJoinEvent $event
      */
-    public function onPlayerJoin(PlayerJoinEvent $event){
+    public function onJoin(PlayerJoinEvent $event){
         foreach ($this->groups as $group){
             $group->maintainMember($event->getPlayer());
         }
