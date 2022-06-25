@@ -1,6 +1,6 @@
 <?php
 
-namespace rankup\doesgroups;
+namespace HenryDM\RankUP\doesgroups;
 
 use pocketmine\Server;
 use pocketmine\event\Listener;
