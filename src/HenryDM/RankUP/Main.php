@@ -4,16 +4,16 @@ namespace HenryDM/RankUP;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
-use rankup\command\RankUpCommand;
-use rankup\doesgroups\RankUpDoesGroups;
-use rankup\economy\BaseEconomy;
-use rankup\economy\EconomyLoader;
-use rankup\permission\BasePermissionManager;
-use rankup\permission\PermissionLoader;
-use rankup\rank\RankStore;
+use HenryDM\RankUP\command\RankUpCommand;
+use HenryDM\RankUP\doesgroups\RankUpDoesGroups;
+use HenryDM\RankUP\economy\BaseEconomy;
+use HenryDM\RankUP\economy\EconomyLoader;
+use HenryDM\RankUP\permission\BasePermissionManager;
+use HenryDM\RankUP\permission\PermissionLoader;
+use HenryDM\RankUP\rank\RankStore;
 
-class RankUp extends PluginBase
-{
+class Main extends PluginBase { 
+
     /** @var  LanguageConfig */
     private $languageConfig;
     /** @var  RankUpDoesGroups */
@@ -31,8 +31,8 @@ class RankUp extends PluginBase
     /** @var  RankUpCommand */
     private $rankupCommand;
 
-    public function onEnable()
-    {
+    public function onEnable() : void { 
+
         $this->saveDefaultConfig();
         $this->languageConfig = new LanguageConfig($this->getConfig());
         $this->loadRankUpDoesGroups();
