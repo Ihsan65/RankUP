@@ -1,9 +1,9 @@
 <?php
 
-namespace rankup\rank;
+namespace HenryDM\RankUP\rank;
 
-class Rank
-{
+class Rank { 
+
     private $name;
     private $price;
     private $order;
