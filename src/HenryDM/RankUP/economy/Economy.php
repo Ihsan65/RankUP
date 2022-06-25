@@ -1,13 +1,13 @@
 <?php
 
-namespace rankup\economy;
+namespace HenryDM\RankUP\economy;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\plugin\Plugin;
 use pocketmine\plugin\PluginBase;
 
-class Economy extends BaseEconomy
-{
+class Economy extends BaseEconomy {
+
     /**
      * @param $amt
      * @param Player $player
